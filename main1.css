@@ -1,0 +1,143 @@
+body {
+    width: 375px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 365px 1fr; 
+    grid-gap: 2px;
+    
+
+
+    }
+    
+        .header { 
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 20px;
+            width: 100%;
+            background-color: darkcyan;
+            border: 0.1px solid red;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+           
+        .hero {
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 40px;
+            width: 100%;
+            background-color: royalblue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .service {
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 120px;
+            width: 100%;
+            background-color: rebeccapurple;
+            padding-top: 10px;
+            padding-bottom: 10px;
+         }
+                
+        .freelance {
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 30px;
+            width: 100%;
+            background-color: blue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+         }
+    
+        .testimonials {
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 120px;
+            width: 100%;
+            background-color: blueviolet;
+            padding-top: 10px;
+            padding-bottom: 10px;
+         }
+    
+        .footer {
+            grid-column: 2 / 3;  
+            display: inline-block;
+            height: 20px;
+            width: 100%;
+            background-color: gray;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+         }
+        .nav {
+            grid-column: 2 / 3;
+            display: inline-block;
+            height: 20px;
+            width: 100%;
+            background-color: green; 
+            padding-top: 10px;
+            padding-bottom: 10px;
+    
+        }
+
+        @media (min-width: 580px) {
+            body {
+                width: 1000px;
+                background-color: ivory;
+                grid-template-columns: 10px 490px 490px 10px;
+            }
+                .header {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+                .hero {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+                .service {
+                    width: 1000px; 
+                    background-color: lightblue;
+                }
+                .service > .serv-item {
+                    display: inline-block;
+                    width: 100px;
+                }
+                .freelance {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+                .testimonials {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+                .footer {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+                .nav {
+                    width: 1000px;
+                    background-color: khaki;
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                }
+        }
+        @media(min-width:1000px) {
+            body {
+                width: 1220px;
+                width: 1000px;
+                background-color: burlywood;
+                grid-template-columns: 10px 300px 300px 300px 10px;
+            }
+        }

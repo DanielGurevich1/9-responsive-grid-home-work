@@ -1,0 +1,72 @@
+body {
+width: 375px;
+display: grid;
+grid-template-columns: 1fr 365px 1fr;
+grid-template-area: ".  header  .  hero  .  service . serv.items . freelance . testimonials . testimonial.items . footer . nav ."; 
+}
+
+    header { 
+        grid-column: 2 / 3;  
+        grid-area: header; 
+        display: inline-block;
+        height: 20px;
+        width: 100%;
+        background-color: darkcyan;
+        border: 2px solid red;
+        text-align: center;
+        padding: 5px;
+    }
+
+       
+    hero {
+        grid-column: 2 / 3;  
+        grid-area: hero; 
+        display: inline-block;
+        height: 40px;
+        width: 100%;
+        background-color: royalblue;
+    }
+    service {
+        grid-column: 2 / 3;  
+        grid-area: service; 
+        display: inline-block;
+        height: 120px;
+        width: 100%;
+        background-color: rebeccapurple;
+     }
+
+    freelance {
+        grid-column: 2 / 3;  
+        grid-area: freelance; 
+        display: inline-block;
+        height: 30px;
+        width: 100%;
+        background-color: blue;
+     }
+
+    testimonials {
+        grid-column: 2 / 3;  
+        grid-area: 5; 
+        display: inline-block;
+        height: 120px;
+        width: 100%;
+        background-color: blueviolet;
+     }
+
+    footer {
+        grid-column: 2 / 3;  
+        grid-area: footer; 
+        display: inline-block;
+        height: 20px;
+        width: 100%;
+        background-color: gray;
+     }
+    nav {
+        grid-column: 2 / 3;  
+        grid-area: nav; 
+        display: inline-block;
+        height: 20px;
+        width: 100%;
+        background-color: gray; 
+
+    }
